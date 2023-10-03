@@ -1,0 +1,29 @@
+package javaweek2;
+
+import java.util.Scanner;
+
+public class aasignment1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		int num1, num2, num3, num4;
+		num1 = in.nextInt();
+		num2 = in.nextInt();
+        num3 = in.nextInt();
+        num4 = in.nextInt();
+        
+        boolean result = (num1 > num2)||(num3 < num4);
+        int billSum = rentDue + carPayment + food;
+
+        if (moneyInBank >= billSum) {
+            System.out.println("You have enough money this week.");
+        } else {
+            System.out.println("You may need to borrow some money.");
+        }
+    }
+
+
+	
+	
+}
